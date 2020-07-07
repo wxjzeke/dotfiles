@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 0,
+    "go.formatTool": "goimports",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "workbench.colorTheme": "Eva Dark",
+    "editor.renderControlCharacters": false,
+    "workbench.editor.showTabs": false
+}

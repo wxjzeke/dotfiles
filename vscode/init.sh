@@ -12,5 +12,6 @@ code --install-extension gencer.html-slim-scss-css-class-completion
 code --install-extension caixw.statistic # 代码行数统计
 
 code --install-extension alefragnani.project-manager
+code --install-extension bodil.file-browser # 从路径打开文件
 
 ln -s ~/Project/src/github.com/wxjzeke/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
