@@ -41,5 +41,13 @@
         "key": "alt+left",
         "command": "-breadcrumbs.focusPreviousWithPicker",
         "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+x 0",
+        "command": "workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "cmd+k w",
+        "command": "-workbench.action.closeEditorsInGroup"
     }
 ]
