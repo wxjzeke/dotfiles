@@ -63,5 +63,13 @@
     {
         "key": "ctrl+c ctrl+f",
         "command": "file-browser.open"
+    },
+    {
+        "key": "ctrl+c p",
+        "command": "projectManager.listProjects"
+    },
+    {
+        "key": "alt+cmd+p",
+        "command": "-projectManager.listProjects"
     }
 ]
