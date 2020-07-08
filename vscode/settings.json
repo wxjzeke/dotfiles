@@ -16,5 +16,6 @@
     "editor.renderWhitespace": "boundary",
     "projectManager.git.baseFolders": [
         "~/Project/src/github.com"
-    ]
+    ],
+    "editor.multiCursorModifier": "alt"
 }

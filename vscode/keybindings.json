@@ -97,13 +97,58 @@
         "when": "breadcrumbsActive && breadcrumbsVisible"
     },
     {
-        "key": "n",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus && editorHasSelection"
+        "key": "backspace",
+        "command": "-emacs.deleteLeft",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+cmd+n",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
+        "key": "ctrl+x ctrl+c",
+        "command": "workbench.action.quit"
+    },
+    {
+        "key": "cmd+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "cmd+x",
+        "command": "workbench.action.showCommands",
+        "when": "!config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "alt+x",
+        "command": "-workbench.action.showCommands",
+        "when": "!config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.showCommands",
+        "when": "config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+    {
+        "key": "cmd+x",
+        "command": "-workbench.action.showCommands",
+        "when": "config.emacs-mcx.useMetaPrefixMacCmd"
+    },
+
+    // jump to top and bottom
+    {
+        "key": "shift+cmd+.",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+,",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "-cursorTop",
+        "when": "textInputFocus"
     }
 ]
