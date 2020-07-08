@@ -95,5 +95,15 @@
         "key": "escape",
         "command": "-breadcrumbs.selectEditor",
         "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "n",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus && editorHasSelection"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
     }
 ]
