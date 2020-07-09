@@ -3,8 +3,7 @@ brew cask install visual-studio-code
 code --install-extension fisheva.eva-theme
 
 # emacs emulator
-# code --install-extension vscodeemacs.emacs # https://github.com/VSCodeEmacs/Emacs/issues/7
-code --install-extension tuttieee.emacs-mcx # 暂先用这个吧，vscodeemacs.emacs 的多光标编辑存在问题
+code --install-extension vscodeemacs.emacs # https://github.com/VSCodeEmacs/Emacs/issues/7
 
 code --install-extension golang.go
 code --install-extension ms-python.python

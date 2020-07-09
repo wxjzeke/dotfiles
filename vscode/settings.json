@@ -17,5 +17,11 @@
     "projectManager.git.baseFolders": [
         "~/Project/src/github.com"
     ],
-    "editor.multiCursorModifier": "alt"
+    "editor.multiCursorModifier": "alt",
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "ruby.format": "rubocop" // use rubocop for formatting
 }
