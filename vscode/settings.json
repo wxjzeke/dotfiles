@@ -1,27 +1,26 @@
 {
-    "window.zoomLevel": 0,
-    "go.formatTool": "goimports",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "breadcrumbs.enabled": true,
-    "workbench.colorTheme": "Eva Dark",
-    "editor.renderControlCharacters": false,
-    "workbench.editor.showTabs": false,
-    "editor.scrollbar.verticalScrollbarSize": 1,
-    "editor.glyphMargin": false, // breakpoint gutter. turn on if need
-    "editor.folding": false,
-    "editor.renderWhitespace": "boundary",
-    "projectManager.git.baseFolders": [
-        "~/Project/src/github.com"
-    ],
-    "editor.multiCursorModifier": "alt",
-    "ruby.useBundler": true,
-    "ruby.useLanguageServer": true,
-    "ruby.lint": {
-        "rubocop": true
-    },
-    "ruby.format": "rubocop" // use rubocop for formatting
+  "window.zoomLevel": 0,
+  "go.formatTool": "goimports",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "breadcrumbs.enabled": true,
+  "workbench.colorTheme": "Eva Dark",
+  "editor.renderControlCharacters": false,
+  "workbench.editor.showTabs": false,
+  "editor.scrollbar.verticalScrollbarSize": 1,
+  "editor.glyphMargin": false, // breakpoint gutter. turn on if need
+  "editor.folding": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "boundary",
+  "projectManager.git.baseFolders": ["~/Project/src/github.com"],
+  "editor.multiCursorModifier": "alt",
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.format": "rubocop" // use rubocop for formatting
 }
