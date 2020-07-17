@@ -5,3 +5,4 @@ brew cask install Dropbox
 brew cask install gitify
 brew cask install sourcetree
 brew cask install postman
+brew cask install HyperSwitch # window switch instead of app switch
