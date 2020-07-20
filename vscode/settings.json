@@ -7,15 +7,31 @@
   "workbench.statusBar.visible": true,
   "workbench.startupEditor": "newUntitledFile",
   "breadcrumbs.enabled": true,
-  "workbench.colorTheme": "Eva Dark",
+  "workbench.colorTheme": "Eva Dark Bold",
   "editor.renderControlCharacters": false,
   "workbench.editor.showTabs": false,
   "editor.scrollbar.verticalScrollbarSize": 1,
   "editor.glyphMargin": false, // breakpoint gutter. turn on if need
   "editor.folding": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[go]": {
+    "editor.formatOnSave": true
+  },
   "editor.renderWhitespace": "boundary",
-  "projectManager.git.baseFolders": ["~/Project/src/github.com"],
+  "projectManager.git.baseFolders": ["~/Project/src/github.com"]
   //"editor.multiCursorModifier": "alt" // what's this?
   // "ruby.useBundler": true,
   // "ruby.useLanguageServer": true,

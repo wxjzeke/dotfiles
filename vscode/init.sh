@@ -11,6 +11,9 @@ code --install-extension golang.go
 # Mac 下 VsCode gocode-gomod 安装失败的解决办法： https://zhuanlan.zhihu.com/p/77737799
 # go get github.com/mdempsky/gocode
 
+# prettier - [json, ts, react]
+code --install-extension esbenp.prettier-vscode
+
 code --install-extension ms-python.python
 code --install-extension octref.vetur
 code --install-extension rebornix.ruby
