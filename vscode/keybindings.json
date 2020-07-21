@@ -102,14 +102,6 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+\\",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+cmd+space",
-    "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
     "key": "ctrl+cmd+space",
     "command": "editor.action.smartSelect.expand",
     "when": "editorTextFocus"
@@ -118,5 +110,14 @@
     "key": "ctrl+shift+right",
     "command": "-editor.action.smartSelect.expand",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+v",
+    "command": "-closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
   }
 ]
